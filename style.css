@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+a {
+    display: flex;
+    font-family: helvetica;
+    font-weight: 800;
+    color: white;
+    background: blue;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
