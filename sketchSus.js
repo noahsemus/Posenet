@@ -215,7 +215,7 @@ function draw() {
   
   imageMode(CORNER);
   
-  image(cube,0,0,windowWidth, windowHeight);
+  //image(cube,0,0,windowWidth, windowHeight);
   
   
   
@@ -264,6 +264,6 @@ function draw() {
   texHipL.position(hipLX-d*5/2, hipLY-d*5/2);
   texHipL.size(d*3,d*3);  
   //R HIP
-  texHipR.position(hipRX-d*5/2, hipRY-d*5/2);
-  texHipR.size(d*3,d*3);
+ // texHipR.position(hipRX-d*5/2, hipRY-d*5/2);
+ // texHipR.size(d*3,d*3);
 }

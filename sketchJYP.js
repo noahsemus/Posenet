@@ -66,7 +66,7 @@ function preload(){
   texKneeR = createImg(['GIFsJYP/claudia.gif'])
   texAnkleL = createImg(['GIFsJYP/nick.gif'])
   texAnkleR = createImg(['GIFsJYP/rebecca.gif'])  
-  texHipL = createImg(['GIFsJYP/eve.gif'])
+  texHipL = createImg(['GIFsJYP/bearboy.gif'])
   texHipR = createImg(['GIFsJYP/woop.gif'])
   mario = createImg(['GIFsJYP/mario.jpg'])
 }
