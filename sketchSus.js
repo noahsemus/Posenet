@@ -215,10 +215,6 @@ function draw() {
   
   imageMode(CORNER);
     
-  image(video,0,0,windowWidth, windowHeight);
-    
-
-  
   image(cube,0,0,windowWidth, windowHeight);
   
   
