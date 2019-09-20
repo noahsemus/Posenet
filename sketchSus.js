@@ -77,8 +77,8 @@ function preload(){
   texAnkleL = createImg(['GIFsSus/8.gif']);
   texAnkleR = createImg(['GIFsSus/9.gif']);  
   texHipL = createImg(['GIFsSus/10.gif']);
- // texHipR = createImg(['GIFsSus/11.gif']);
- // cube = createImg(['GIFsSus/cube.png']);
+  texHipR = createImg(['GIFsSus/11.gif']);
+  cube = createImg(['GIFsSus/cube.png']);
 }
 
 function setup() {
@@ -215,7 +215,7 @@ function draw() {
   
   imageMode(CORNER);
   
-  //image(cube,0,0,windowWidth, windowHeight);
+  //image(cube,0,0,50, 50);
   
   
   
@@ -264,6 +264,6 @@ function draw() {
   texHipL.position(hipLX-d*5/2, hipLY-d*5/2);
   texHipL.size(d*3,d*3);  
   //R HIP
- // texHipR.position(hipRX-d*5/2, hipRY-d*5/2);
- // texHipR.size(d*3,d*3);
+  texHipR.position(hipRX-d*5/2, hipRY-d*5/2);
+  texHipR.size(d*3,d*3);
 }
