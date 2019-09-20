@@ -77,8 +77,8 @@ function preload(){
   texAnkleL = createImg(['GIFsSus/8.gif']);
   texAnkleR = createImg(['GIFsSus/9.gif']);  
   texHipL = createImg(['GIFsSus/10.gif']);
-  texHipR = createImg(['GIFsSus/11.gif']);
-  cube = createImg(['GIFsSus/cube.png']);
+ // texHipR = createImg(['GIFsSus/11.gif']);
+ // cube = createImg(['GIFsSus/cube.png']);
 }
 
 function setup() {
