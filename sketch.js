@@ -66,6 +66,18 @@ function preload(){
   
   handy = loadModel('decHand06.obj', true);
   heady = loadModel('headSculpt3.obj', true);
+    
+  texture01 = createVideo(['GIFs/gif00001.webm']);
+  texture01.loop();
+  texture01.hide();
+  
+  texture02 = createVideo(['GIFs/gif00005.webm']);
+  texture02.loop();
+  texture02.hide();
+  
+  texture03 = createVideo(['GIFs/hairGrow.webm']);
+  texture03.loop();
+  texture03.hide();
   
 }
 
@@ -196,20 +208,6 @@ function modelLoaded() {
 }
 
 function draw() {
-    
-    texture01 = createVideo(['GIFs/gif00001.webm']);
-  texture01.loop();
-  texture01.hide();
-  
-  texture02 = createVideo(['GIFs/gif00005.webm']);
-  texture02.loop();
-  texture02.hide();
-  
-  texture03 = createVideo(['GIFs/hairGrow.webm']);
-  texture03.loop();
-  texture03.hide();
-    
-    
   scale(-1,1);
   
    bgTexture = 0;
