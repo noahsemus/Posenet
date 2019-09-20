@@ -83,9 +83,11 @@ function preload(){
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  scale(-1,1);
   video = createCapture(VIDEO);
   video.size(windowWidth, windowHeight);
   video.hide();
+  scale(1,1);
   poseNet = ml5.poseNet(video, modelLoaded);
   poseNet.on('pose',gotPoses);
 }
