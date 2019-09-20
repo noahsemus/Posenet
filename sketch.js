@@ -50,14 +50,14 @@ let ankleRX = 0;
 let ankleRY = 0;
 
 
-//TEXTURES
+
+
+function preload(){
+    
+  //TEXTURES
 let texture01;
 let texture02;
 let texture03;
-let texture04;
-let texture05;
-let texture06;
-let texture07;
 
 let videoTexture;
 let bgTexture
@@ -65,8 +65,7 @@ let bgTexture
 
 let handy;
 let heady;
-
-function preload(){
+    
   texture01 = createVideo(['GIFs/gif00001.webm']);
   texture01.loop();
   texture01.hide();
