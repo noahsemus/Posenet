@@ -217,7 +217,7 @@ function draw() {
     
   image(video,0,0,windowWidth, windowHeight);
     
-  scale(1,1);
+
   
   image(cube,0,0,windowWidth, windowHeight);
   
