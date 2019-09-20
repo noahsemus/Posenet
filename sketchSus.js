@@ -207,9 +207,9 @@ function modelLoaded() {
 }
 
 function draw() {
-  scale(-1,1);
+  //scale(-1,1);
   
-  background(240);
+  background(50);
   
   angleMode(DEGREES);
   
