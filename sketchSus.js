@@ -78,7 +78,7 @@ function preload(){
   texAnkleR = createImg(['GIFsSus/9.gif']);  
   texHipL = createImg(['GIFsSus/10.gif']);
   texHipR = createImg(['GIFsSus/11.gif']);
-  cube = createImg(['GIFsSus/cube.png']);
+  cube = loadImage(['GIFsSus/cube.png']);
 }
 
 function setup() {
@@ -215,7 +215,7 @@ function draw() {
   
   imageMode(CORNER);
   
-  //image(cube,0,0,50, 50);
+  image(cube,0,0,windowWidth, windowHeight);
   
   
   
