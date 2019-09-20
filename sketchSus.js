@@ -83,11 +83,9 @@ function preload(){
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  scale(-1,1);
   video = createCapture(VIDEO);
   video.size(windowWidth, windowHeight);
   video.hide();
-  scale(1,1);
   poseNet = ml5.poseNet(video, modelLoaded);
   poseNet.on('pose',gotPoses);
 }
@@ -209,13 +207,17 @@ function modelLoaded() {
 }
 
 function draw() {
-  //scale(-1,1);
+  scale(-1,1);
   
   background(240);
   
   angleMode(DEGREES);
   
   imageMode(CORNER);
+    
+  image(video,0,0,windowWidth, windowHeight);
+    
+  scale(1,1);
   
   image(cube,0,0,windowWidth, windowHeight);
   
