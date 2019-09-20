@@ -50,11 +50,7 @@ let ankleRX = 0;
 let ankleRY = 0;
 
 
-
-
-function preload(){
-    
-  //TEXTURES
+//TEXTURES
 let texture01;
 let texture02;
 let texture03;
@@ -65,6 +61,16 @@ let bgTexture
 
 let handy;
 let heady;
+
+function preload(){
+  
+  handy = loadModel('decHand06.obj', true);
+  heady = loadModel('headSculpt3.obj', true);
+  
+}
+
+function setup() {
+  createCanvas(windowWidth, windowHeight, WEBGL);
     
   texture01 = createVideo(['GIFs/gif00001.webm']);
   texture01.loop();
@@ -77,34 +83,7 @@ let heady;
   texture03 = createVideo(['GIFs/hairGrow.webm']);
   texture03.loop();
   texture03.hide();
-  
-  /**
-  
-  texture04 = createVideo(['GIFs/gif00005.webm']);
-  texture04.loop();
-  texture04.hide();
-  
-  texture05 = createVideo(['GIFs/gif00001.webm']);
-  texture05.loop();
-  texture05.hide();
-  
-  texture06 = createVideo(['GIFs/gif00006.webm']);
-  texture06.loop();
-  texture06.hide();
-  
-  texture07 = createVideo(['GIFs/gif00004.webm']);
-  texture07.loop();
-  texture07.hide();
-  
-  **/
-  
-  handy = loadModel('decHand06.obj', true);
-  heady = loadModel('headSculpt3.obj', true);
-  
-}
-
-function setup() {
-  createCanvas(windowWidth, windowHeight, WEBGL);
+    
   video = createCapture(VIDEO);
   video.size(windowWidth, windowHeight);
   video.hide();
